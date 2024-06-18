@@ -7,7 +7,6 @@ export class Article extends React.Component{
             <article id="article">
 
                 <img src={ImagePNG} alt=""/>
-
                     <div className="article-infos">
                         <h2>{this.props.title}</h2>
                         <h3>{this.props.provider}</h3>
